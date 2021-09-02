@@ -11,21 +11,21 @@
     <title>Book Archive</title>
 </head>
 <body>
-
-    <header>
-
+    <header class="container">
+        <h1 class="text-center my-4 pb-3">Book Archive</h1>
     </header>
 
     <main>
-        <div class="container">
-            <div class="search-area">
-                <input id="search-key" value="python" type="text"><button id="api-call">Search</button>
-            </div>
-            <div id="results"></div>
-            <div id="book-container" class="row">
-                <div id="error-message">
-                    <p>Not Found</p>
+        <div class="container mb-5">
+            <div class="search-area text-center mb-5">
+                <h6 class="mb-3">Search to Find Your Books</h3>
+                <div class="d-flex justify-content-center">
+                    <input id="search-key" class="px-2 py-1" type="text"><button id="api-call">Search</button>
                 </div>
+            </div>
+            <div id="results" class="text-center"></div>
+            <div id="error-message" class="text-center"></div>
+            <div id="book-container" class="row">
             </div>
         </div>
     </main>

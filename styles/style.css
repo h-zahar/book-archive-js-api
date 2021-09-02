@@ -1,4 +1,33 @@
+
 .image-size {
     height: 250px;
+}
+
+#search-key {
     border: 1px solid black;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}   
+
+#search-key:hover {
+    border: 1px solid blue;
+    border-right: none;
+}
+
+#api-call {
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    transition: all 0.4s;
+}
+
+#api-call:hover {
+    background-color: black;
+    color: white;
+}
+
+.set-height {
+    height: 350px;
+    overflow-y: scroll;
 }
